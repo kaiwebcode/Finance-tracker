@@ -68,7 +68,6 @@ export default function Page() {
                 cashflow by logging what you've spent with this simple form.
               </p>
             </div>
-
             <SignIn />
           </div>
         </main>
