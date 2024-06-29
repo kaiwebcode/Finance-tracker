@@ -53,7 +53,7 @@ function MobileNavbar() {
             </div>
           </SheetContent>
         </Sheet>
-        <div className="flex h-[80px] min-h-[60px] items-center gap-x-4">
+        <div className="flex h-[80px] min-h-[60px] items-center gap-x-2">
           <LogoMobile />
         </div>
         <div className="flex items-center gap-2">
