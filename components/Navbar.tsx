@@ -39,7 +39,7 @@ function MobileNavbar() {
           </SheetTrigger>
           <SheetContent className="w-full sm:w-[540px]" side="left">
             <div className="flex flex-col gap-1 pt-4">
-            <div className="mb-4">
+              <div className="mb-4">
                 <Logo />
               </div>
               {items.map((item) => (
@@ -51,6 +51,10 @@ function MobileNavbar() {
                 />
               ))}
             </div>
+            <Box className="mt-auto p-5 flex gap-2 items-center">
+              <UserButton />
+              <span>Profile</span>
+            </Box>
           </SheetContent>
         </Sheet>
         <div className="flex h-[80px] min-h-[60px] items-center gap-x-2">
