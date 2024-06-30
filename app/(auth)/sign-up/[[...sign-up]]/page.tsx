@@ -60,7 +60,7 @@ export default function Page() {
                   </svg>
                 </a>
 
-                <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+                <h1 className="my-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
                   Welcome to Sign-up page
                 </h1>
 
