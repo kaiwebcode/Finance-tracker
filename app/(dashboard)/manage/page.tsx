@@ -70,7 +70,7 @@ function CategoryList({ type }: { type: TransactionType }) {
       <Card>
         <CardHeader>
           <CardTitle className="flex flex-wrap items-center justify-between gap-2">
-            <div className="flex items-center gap-3 py-4">
+            <div className="flex items-center gap-3 py-6">
               {type === "expense" ? (
                 <TrendingDown className="h-12 w-12 items-center rounded-lg bg-red-400/10 p-2 text-red-500" />
               ) : (
