@@ -33,7 +33,7 @@ function CategoriesStats({ userSettings, from, to }: Props) {
   }, [userSettings.currency]);
 
   return (
-    <div className="flex w-full flex-wrap gap-2 md:flex-nowrap py-6">
+    <div className="flex w-full flex-wrap md:flex-nowrap py-6">
       <SkeletonWrapper isLoading={statsQuery.isFetching}>
         <CategoriesCard
           formatter={formatter}
@@ -70,9 +70,9 @@ function CategoriesCard({
   );
 
   return (
-    <Card className="h-80 w-full flex-1 pb-12 ">
+    <Card className="h-80 w-full flex-1 pb-12  ">
       <CardHeader>
-        <CardTitle className="grid grid-flow-row justify-between  text-muted-foreground md:grid-flow-col">
+        <CardTitle className="grid grid-flow-row justify-between gap-2 text-muted-foreground md:grid-flow-col">
           {type === "income" ? "Incomes" : "Expenses"} by category
         </CardTitle>
       </CardHeader>
