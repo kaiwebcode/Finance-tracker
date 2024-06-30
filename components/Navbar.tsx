@@ -39,7 +39,7 @@ function MobileNavbar() {
             </Button>
           </SheetTrigger>
           <SheetContent className="w-full sm:w-[540px]" side="left">
-            <div className="flex flex-col gap-1 pt-4">
+            <div className="flex flex-col gap-1 py-6">
               <div className="mb-4">
                 <Logo />
               </div>
