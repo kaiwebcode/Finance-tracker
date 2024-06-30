@@ -70,7 +70,7 @@ function CategoryList({ type }: { type: TransactionType }) {
       <Card>
         <CardHeader>
           <CardTitle className="flex flex-wrap items-center justify-between gap-2">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 py-4">
               {type === "expense" ? (
                 <TrendingDown className="h-12 w-12 items-center rounded-lg bg-red-400/10 p-2 text-red-500" />
               ) : (
@@ -88,7 +88,7 @@ function CategoryList({ type }: { type: TransactionType }) {
               type={type}
               successCallback={() => categoriesQuery.refetch()}
               trigger={
-                <Button className="flex-nowrap gap-2 text-sm sm:flex sm:items-center">
+                <Button className="flex-nowrap gap-2 text-sm sm:flex sm:justify-center py-2">
                   <PlusSquare className="h-4 w-4" />
                   <span className="sm:inline">Create category</span>
                 </Button>
@@ -132,7 +132,7 @@ function CategoryList({ type }: { type: TransactionType }) {
 function CategoryCard({ category }: { category: Category }) {
   return (
     <div className="flex flex-col justify-between rounded-md border shadow-md shadow-black/[0.1] dark:shadow-white/[0.1]">
-      <div className="flex flex-col items-center gap-8 p-4">
+      <div className="flex flex-col items-center gap-2 p-4">
         <span className="text-3xl" role="img">
           {category.icon}
         </span>
