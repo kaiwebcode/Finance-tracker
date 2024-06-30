@@ -52,9 +52,9 @@ function MobileNavbar() {
                 />
               ))}
             </div>
-            <Box className="mt-auto p-5 flex gap-2 items-center">
+            <Box className="mt-auto pt-10 flex gap-3 items-center">
               <UserButton />
-              <span>Profile</span>
+              <span className="text-2xl">Profile</span>
             </Box>
           </SheetContent>
         </Sheet>
