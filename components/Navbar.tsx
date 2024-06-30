@@ -51,11 +51,11 @@ function MobileNavbar() {
                   clickCallback={() => setIsOpen((prev) => !prev)}
                 />
               ))}
+              <Box className="justify-center px-4 mt-10 flex gap-3 items-center">
+                <UserButton />
+                <span className="text-xl">Profile</span>
+              </Box>
             </div>
-            <Box className="mt-auto pt-10 flex gap-3 items-center">
-              <UserButton />
-              <span className="text-2xl">Profile</span>
-            </Box>
           </SheetContent>
         </Sheet>
         <div className="flex h-[80px] min-h-[60px] items-center gap-x-2">
