@@ -131,7 +131,7 @@ function CategoryList({ type }: { type: TransactionType }) {
 
 function CategoryCard({ category }: { category: Category }) {
   return (
-    <div className="flex flex-col justify-between rounded-md m-6 border shadow-md shadow-black/[0.1] dark:shadow-white/[0.1]">
+    <div className="flex flex-col justify-between rounded-md m-2 border shadow-md shadow-black/[0.1] dark:shadow-white/[0.1]">
       <div className="flex flex-col items-center gap-2 p-4">
         <span className="text-3xl" role="img">
           {category.icon}
