@@ -64,7 +64,7 @@ export default function Page() {
                   Welcome to Sign-up page
                 </h1>
 
-                <p className="mt-4 leading-relaxed text-gray-500">
+                <p className="my-4 leading-relaxed text-gray-500">
                   money, ipsum dolor sit amet consectetur adipisicing elit.
                   Eligendi nam dolorum aliquam, quibusdam aperiam voluptatum.
                 </p>
