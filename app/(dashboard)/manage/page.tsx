@@ -27,9 +27,9 @@ function page() {
       <div className="border-b bg-card">
         <div className="container flex flex-wrap items-center justify-between gap-6 py-8">
           <div>
-            <p className="text-3xl font-bold">Manage</p>
+            <p className="text-3xl font-bold pb-2">Manage</p>
             <p className="text-muted-foreground">
-              Manage your account settings and categories
+              Manage your account settings and categories.
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ function CategoryList({ type }: { type: TransactionType }) {
       <Card>
         <CardHeader>
           <CardTitle className="flex flex-wrap items-center justify-between gap-2">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               {type === "expense" ? (
                 <TrendingDown className="h-12 w-12 items-center rounded-lg bg-red-400/10 p-2 text-red-500" />
               ) : (
@@ -90,7 +90,7 @@ function CategoryList({ type }: { type: TransactionType }) {
               trigger={
                 <Button className="flex-nowrap gap-2 text-sm sm:flex">
                   <PlusSquare className="h-4 w-4" />
-                  <span className="hidden sm:inline">Create category</span>
+                  <span className="sm:inline">Create category</span>
                 </Button>
               }
             />
