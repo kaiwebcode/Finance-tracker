@@ -19,7 +19,7 @@ function Logo() {
 export function LogoMobile() {
   return (
     <a href="/" className="flex items-center gap-1">
-       <p className="font-semibold text-white text-3xl ">Financial-Tracker</p>
+       <p className="font-semibold text-white text-2xl ">Financial-Tracker</p>
     </a>
   );
 }
