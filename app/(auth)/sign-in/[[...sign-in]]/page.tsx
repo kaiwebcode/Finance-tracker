@@ -65,10 +65,10 @@ export default function Page() {
                 </h1>
 
                 <p className="my-4 leading-relaxed text-gray-500">
-                  money, Ever feel like you're throwing money away? Take control
+                  money Ever feel like you're throwing money away? Take control
                   fo your cashflow by logging what you've spent with this simple
-                  form. Eligendi nam dolorum aliquam, quibusdam aperiam
-                  voluptatum.
+                  form., ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi nam dolorum aliquam, quibusdam aperiam voluptatum.
                 </p>
               </div>
               <SignIn />
