@@ -10,7 +10,7 @@ function Logo() {
       {/* <p className="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-4xl font-bold leading-tight tracking-tighter text-transparent">
         
       </p> */}
-      <Image src="./logo.svg" alt="Logo" height={40} width={40} />
+      <Image src="./logo.svg" alt="Logo" height={35} width={35} />
       <p className="font-semibold text-white text-3xl ml-2">Financial-Tracker</p>
     </a>
   );
