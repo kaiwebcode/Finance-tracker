@@ -27,7 +27,7 @@ function page() {
       <div className="border-b bg-card">
         <div className="container flex flex-wrap items-center justify-between gap-6 py-8">
           <div>
-            <p className="text-3xl font-bold pb-2">Manage</p>
+            <p className="text-4xl font-bold pb-2">Manage</p>
             <p className="text-muted-foreground">
               Manage your account settings and categories.
             </p>
@@ -88,7 +88,7 @@ function CategoryList({ type }: { type: TransactionType }) {
               type={type}
               successCallback={() => categoriesQuery.refetch()}
               trigger={
-                <Button className="flex-nowrap gap-2 text-sm sm:flex">
+                <Button className="flex-nowrap gap-2 text-sm sm:flex sm:justify-center">
                   <PlusSquare className="h-4 w-4" />
                   <span className="sm:inline">Create category</span>
                 </Button>
