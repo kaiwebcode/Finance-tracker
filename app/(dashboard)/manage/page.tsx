@@ -118,7 +118,7 @@ function CategoryList({ type }: { type: TransactionType }) {
           </div>
         )}
         {dataAvailable && (
-          <div className="grid grid-cols-1 gap-2 p-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-2 p-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {categoriesQuery.data.map((category: Category) => (
               <CategoryCard category={category} key={category.name} />
             ))}
@@ -131,7 +131,7 @@ function CategoryList({ type }: { type: TransactionType }) {
 
 function CategoryCard({ category }: { category: Category }) {
   return (
-    <div className="flex flex-col justify-between rounded-md border shadow-md shadow-black/[0.1] dark:shadow-white/[0.1]">
+    <div className="flex flex-col justify-between rounded-md m-6 border shadow-md shadow-black/[0.1] dark:shadow-white/[0.1]">
       <div className="flex flex-col items-center gap-2 p-4">
         <span className="text-3xl" role="img">
           {category.icon}
