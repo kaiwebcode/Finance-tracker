@@ -52,7 +52,7 @@ function MobileNavbar() {
                 />
               ))}
             </div>
-              <Box className="flex px-4 mt-10 gap-3 items-center">
+              <Box className="flex px-4 pt-11 mt-10 gap-3 items-center">
                 <UserButton />
                 <span className="text-xl">Profile account</span>
               </Box>
