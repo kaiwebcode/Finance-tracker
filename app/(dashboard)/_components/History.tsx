@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GetFormatterForCurrency } from "@/lib/helpers";
 import { Period, Timeframe } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { Text } from "@chakra-ui/react";
 import { UserSettings } from "@prisma/client";
 import { useQuery } from "@tanstack/react-query";
 import React, { useCallback, useMemo, useState } from "react";
@@ -166,9 +167,9 @@ function History({ userSettings }: { userSettings: UserSettings }) {
             {!dataAvailable && (
               <Card className="flex h-[300px] flex-col items-center justify-center bg-background">
                 No data for the selected period
-                <p className="text-sm text-muted-foreground">
+                <Text className="text-sm text-muted-foreground text-center">
                   Try selecting a different period or adding new transactions
-                </p>
+                </Text>
               </Card>
             )}
           </SkeletonWrapper>

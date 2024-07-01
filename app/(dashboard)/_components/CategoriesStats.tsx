@@ -7,6 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { DateToUTCDate, GetFormatterForCurrency } from "@/lib/helpers";
 import { TransactionType } from "@/lib/types";
+import { Text } from "@chakra-ui/react";
 import { UserSettings } from "@prisma/client";
 import { useQuery } from "@tanstack/react-query";
 import React, { useMemo } from "react";
@@ -79,13 +80,13 @@ function CategoriesCard({
 
       <div className="flex items-center justify-between gap-2">
         {filteredData.length === 0 && (
-          <div className="flex h-60 w-full flex-col items-center justify-center">
+          <Text className="flex h-60 w-full flex-col items-center justify-center">
             No data for the selected period
-            <p className="text-sm text-muted-foreground text-center">
+            <Text className="text-sm text-muted-foreground text-center">
               Try selecting a different period or try adding new{" "}
               {type === "income" ? "incomes" : "expenses"}
-            </p>
-          </div>
+            </Text>
+          </Text>
         )}
 
         {filteredData.length > 0 && (
