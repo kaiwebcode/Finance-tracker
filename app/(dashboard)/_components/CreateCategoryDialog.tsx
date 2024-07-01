@@ -183,13 +183,13 @@ function CreateCategoryDialog({ type, successCallback, trigger }: Props) {
                         </Button>
                       </PopoverTrigger>
                       <PopoverContent className="w-full">
-                        {/* <Picker
+                        <Picker
                           data={data}
                           theme={theme.resolvedTheme}
                           onEmojiSelect={(emoji: { native: string }) => {
                             field.onChange(emoji.native);
                           }}
-                        /> */}
+                        />
                       </PopoverContent>
                     </Popover>
                   </FormControl>
