@@ -12,7 +12,7 @@
 
 @media (max-width: 768px) {
   .emoji-picker-container {
-    max-width: 100%;
+    max-width: 50%;
   }
 }
 
