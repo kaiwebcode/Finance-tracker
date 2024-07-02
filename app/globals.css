@@ -4,7 +4,7 @@
 
 .emoji-picker-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
   /* Adjust the max-width as needed */
   height: 400px;
   /* Set a default height */
@@ -23,7 +23,7 @@
 
 @media (max-width: 480px) {
   .emoji-picker-container {
-    height: 300px;
+    height: 400px;
     /* Adjust height for even smaller screens */
   }
 }
