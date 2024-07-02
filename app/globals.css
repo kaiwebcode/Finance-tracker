@@ -23,7 +23,7 @@
 
 @media (max-width: 480px) {
   .emoji-picker-container {
-    height: 200px;
+    height: 300px;
     /* Adjust height for even smaller screens */
   }
 }
