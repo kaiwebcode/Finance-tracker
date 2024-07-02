@@ -73,7 +73,7 @@ function CreateTransactionDialog({ trigger, type }: Props) {
   const { mutate, isPending } = useMutation({
     mutationFn: CreateTransaction,
     onSuccess: () => {
-      toast.success("Transaction created successfully 🎉", {
+      toast.success("Transaction created successfully", {
         id: "create-transaction",
       });
 

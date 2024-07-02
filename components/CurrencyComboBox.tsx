@@ -50,7 +50,7 @@ export function CurrencyComboBox() {
   const mutation = useMutation({
     mutationFn: UpdateUserCurrency,
     onSuccess: (data: UserSettings) => {
-      toast.success(`Currency updated successuflly 🎉`, {
+      toast.success(`Currency updated successuflly`, {
         id: "update-currency",
       });
 

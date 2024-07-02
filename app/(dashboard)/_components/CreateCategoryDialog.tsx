@@ -70,7 +70,7 @@ function CreateCategoryDialog({ type, successCallback, trigger }: Props) {
         type,
       });
 
-      toast.success(`Category ${data.name} created successfully 🎉`, {
+      toast.success(`Category ${data.name} created successfully`, {
         id: "create-category",
       });
 
