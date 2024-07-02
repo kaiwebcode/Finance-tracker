@@ -1,18 +1,13 @@
-// import Logo from "@/components/Logo";
-import Logo from "@/components/Logo";
-import React, { ReactNode } from "react";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
-function layout({ children }: { children: ReactNode }) {
+export default function Home() {
   return (
-    <div className="relative flex h-screen w-full flex-col items-center justify-center">
-      {/* <Logo /> */}
-      <div >{children}
-        <div>
-          <p> Kai here </p>
-        </div>
-      </div>
+    <div>
+      <Header />
+      <Hero />
     </div>
   );
 }
-
-export default layout;
