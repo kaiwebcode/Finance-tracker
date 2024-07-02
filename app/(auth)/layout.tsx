@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+// import Logo from "@/components/Logo";
+import Logo from "@/components/Logo";
+import React, { ReactNode } from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
-export default function Home() {
+function layout({ children }: { children: ReactNode }) {
   return (
     <div>
       <Header />
@@ -11,3 +12,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default layout;
