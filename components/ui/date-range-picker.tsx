@@ -415,7 +415,7 @@ export const DateRangePicker: FC<DateRangePickerProps> & {
                     <Label htmlFor="compare-mode">Compare</Label>
                   </div>
                 )}
-                <div className="flex flex-col gap-2">
+                {/* <div className="flex flex-col gap-2">
                   <div className="flex gap-2">
                     <DateInput
                       value={range.from}
@@ -484,7 +484,7 @@ export const DateRangePicker: FC<DateRangePickerProps> & {
                       />
                     </div>
                   )}
-                </div>
+                </div> */}
               </div>
               {isSmallScreen && (
                 <Select
