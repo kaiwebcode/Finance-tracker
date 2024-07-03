@@ -1,5 +1,5 @@
 {
-  "name": "finance-tracker",
+  "name": "financial-tracker",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
+    "@clerk/clerk-js": "^5.7.2",
     "@clerk/nextjs": "^5.1.6",
     "@emoji-mart/data": "^1.2.1",
     "@emoji-mart/react": "^1.1.1",
