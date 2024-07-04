@@ -15,7 +15,7 @@ function Header() {
       {isSignedIn ? (
         <UserButton />
       ) : (
-        <Link href={"/sign-in?redirect_url=https%3A%2F%2Ffinancial-tracker-eta.vercel.app%2F-in"}>
+        <Link href={"/sign-up"}>
           <Button>Get Started</Button>
         </Link>
       )}

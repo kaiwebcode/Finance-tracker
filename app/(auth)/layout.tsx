@@ -5,11 +5,11 @@ import Header from "../components/Header";
 
 function layout
 (
-  // { children }: { children: ReactNode }
+  { children }: { children: ReactNode }
 ) {
   return (
     <div>
-      {/* {children} */}
+      {children}
       {/* <Logo /> */}
       <Header />
       {/* <div> Yoo Kai is Here..</div> */}
