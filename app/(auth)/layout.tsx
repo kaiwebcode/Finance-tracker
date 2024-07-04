@@ -3,9 +3,10 @@ import Logo from "@/components/Logo";
 import React, { ReactNode } from "react";
 import Header from "../components/Header";
 
-function layout() {
+function layout({ children }: { children: ReactNode }) {
   return (
-    <div >
+    <div>
+      {children}
       {/* <Logo /> */}
       <Header />
       {/* <div> Yoo Kai is Here..</div> */}
