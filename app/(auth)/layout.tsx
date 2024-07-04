@@ -11,7 +11,6 @@ function layout
     <div>
       {children}
       {/* <Logo /> */}
-      <Header />
       {/* <div> Yoo Kai is Here..</div> */}
     </div>
   );
