@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import styled from "styled-components";
@@ -13,8 +13,12 @@ function ScrollToTop() {
 
   return (
     <Div color={useColorModeValue("gray.600", "gray.400")}>
-      <a href="#" className={`${visible ? "block" : "none"}`} color={useColorModeValue("gray.600", "gray.400")}>
-        <FaChevronUp color={useColorModeValue("gray.600", "gray.400")}/>
+      <a
+        href="#"
+        className={`${visible ? "block" : "none"}`}
+        color={useColorModeValue("gray.600", "gray.400")}
+      >
+        <FaChevronUp color={useColorModeValue("gray.600", "gray.400")} />
       </a>
     </Div>
   );
@@ -30,13 +34,13 @@ const Div = styled.div`
     position: fixed;
     bottom: 40px;
     right: 40px;
-    background-color:black; 
+    background-color: black;
     padding: 1rem;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    ${'' /* border:1px solid white; */}
+    ${"" /* border:1px solid white; */}
     transition: 0.4s ease-in-out;
     z-index: 25;
     svg {
