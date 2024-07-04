@@ -1,17 +1,12 @@
 // import Logo from "@/components/Logo";
 import Logo from "@/components/Logo";
 import React, { ReactNode } from "react";
-import Header from "../components/Header";
 
-function layout
-(
-  { children }: { children: ReactNode }
-) {
+function layout({ children }: { children: ReactNode }) {
   return (
-    <div>
-      {children}
+    <div className="relative flex h-screen w-full flex-col items-center justify-center">
       {/* <Logo /> */}
-      {/* <div> Yoo Kai is Here..</div> */}
+      <div >{children}</div>
     </div>
   );
 }
